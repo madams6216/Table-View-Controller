@@ -16,7 +16,7 @@ class TableViewController: UITableViewController {
                "DEU",
                "IDN",
                "JPN",
-               "ZAK",
+               "ZAF",
                "ESP",
                "GBR",
                "USA"]
