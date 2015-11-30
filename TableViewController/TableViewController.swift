@@ -104,7 +104,7 @@ class TableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, accessoryButtonTappedForRowWithIndexPath indexPath: NSIndexPath) {
     
-        let alert = UIAlertController(title: "Accessory Tapped", message: "You have tapped accessoery for\(testData[indexPath.row])", preferredStyle: .Alert)
+        let alert = UIAlertController(title: "Accessory Tapped", message: "You have tapped accessory for\(testData[indexPath.row])", preferredStyle: .Alert)
         
         
         alert.addAction(UIAlertAction(title: "Ok", style: .Default, handler: nil))
