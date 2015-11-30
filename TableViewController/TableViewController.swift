@@ -101,20 +101,42 @@ class TableViewController: UITableViewController {
     }
 
 
-    /*
+    
     // Override to support rearranging the table view.
     override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
+        
+        
+        
+        let tempData1 = testData[fromIndexPath.row]
+        
+        let tempData2 = testData[toIndexPath.row]
+        
+        testData[fromIndexPath.row] = tempData2
+        testData[toIndexPath.row] = tempData1
+        
+        let tempCountry1 = countries[fromIndexPath.row]
 
+        let tempCountry2 = countries[toIndexPath.row]
+        
+        
+        countries[fromIndexPath.row] = tempCountry2
+        countries[toIndexPath.row] = tempCountry1
+        
+        tableView.reloadData()
+        
+        
+        
+        
     }
-    */
 
-    /*
+
+
     // Override to support conditional rearranging of the table view.
     override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
         // Return false if you do not want the item to be re-orderable.
         return true
     }
-    */
+
 
     /*
     // MARK: - Navigation
