@@ -14,6 +14,16 @@
 		76EEE0441C0C896400B0A35D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76EEE0421C0C896400B0A35D /* LaunchScreen.storyboard */; };
 		76EEE04F1C0C896400B0A35D /* TableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EEE04E1C0C896400B0A35D /* TableViewControllerTests.swift */; };
 		76EEE05A1C0C896400B0A35D /* TableViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EEE0591C0C896400B0A35D /* TableViewControllerUITests.swift */; };
+		76EEE0711C0C8CE400B0A35D /* brazil.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EEE0671C0C8CE400B0A35D /* brazil.png */; };
+		76EEE0721C0C8CE400B0A35D /* canada.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EEE0681C0C8CE400B0A35D /* canada.png */; };
+		76EEE0731C0C8CE400B0A35D /* china.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EEE0691C0C8CE400B0A35D /* china.png */; };
+		76EEE0741C0C8CE400B0A35D /* germany.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EEE06A1C0C8CE400B0A35D /* germany.png */; };
+		76EEE0751C0C8CE400B0A35D /* indonesia.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EEE06B1C0C8CE400B0A35D /* indonesia.png */; };
+		76EEE0761C0C8CE400B0A35D /* japan.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EEE06C1C0C8CE400B0A35D /* japan.png */; };
+		76EEE0771C0C8CE400B0A35D /* southafrica.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EEE06D1C0C8CE400B0A35D /* southafrica.png */; };
+		76EEE0781C0C8CE400B0A35D /* spain.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EEE06E1C0C8CE400B0A35D /* spain.png */; };
+		76EEE0791C0C8CE400B0A35D /* uk.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EEE06F1C0C8CE400B0A35D /* uk.png */; };
+		76EEE07A1C0C8CE400B0A35D /* usa.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EEE0701C0C8CE400B0A35D /* usa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		76EEE0551C0C896400B0A35D /* TableViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76EEE0591C0C896400B0A35D /* TableViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerUITests.swift; sourceTree = "<group>"; };
 		76EEE05B1C0C896400B0A35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76EEE0671C0C8CE400B0A35D /* brazil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brazil.png; path = ../brazil.png; sourceTree = "<group>"; };
+		76EEE0681C0C8CE400B0A35D /* canada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = canada.png; path = ../canada.png; sourceTree = "<group>"; };
+		76EEE0691C0C8CE400B0A35D /* china.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = china.png; path = ../china.png; sourceTree = "<group>"; };
+		76EEE06A1C0C8CE400B0A35D /* germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = germany.png; path = ../germany.png; sourceTree = "<group>"; };
+		76EEE06B1C0C8CE400B0A35D /* indonesia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = indonesia.png; path = ../indonesia.png; sourceTree = "<group>"; };
+		76EEE06C1C0C8CE400B0A35D /* japan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = japan.png; path = ../japan.png; sourceTree = "<group>"; };
+		76EEE06D1C0C8CE400B0A35D /* southafrica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = southafrica.png; path = ../southafrica.png; sourceTree = "<group>"; };
+		76EEE06E1C0C8CE400B0A35D /* spain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spain.png; path = ../spain.png; sourceTree = "<group>"; };
+		76EEE06F1C0C8CE400B0A35D /* uk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uk.png; path = ../uk.png; sourceTree = "<group>"; };
+		76EEE0701C0C8CE400B0A35D /* usa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = usa.png; path = ../usa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +117,16 @@
 		76EEE0381C0C896400B0A35D /* TableViewController */ = {
 			isa = PBXGroup;
 			children = (
+				76EEE0671C0C8CE400B0A35D /* brazil.png */,
+				76EEE0681C0C8CE400B0A35D /* canada.png */,
+				76EEE0691C0C8CE400B0A35D /* china.png */,
+				76EEE06A1C0C8CE400B0A35D /* germany.png */,
+				76EEE06B1C0C8CE400B0A35D /* indonesia.png */,
+				76EEE06C1C0C8CE400B0A35D /* japan.png */,
+				76EEE06D1C0C8CE400B0A35D /* southafrica.png */,
+				76EEE06E1C0C8CE400B0A35D /* spain.png */,
+				76EEE06F1C0C8CE400B0A35D /* uk.png */,
+				76EEE0701C0C8CE400B0A35D /* usa.png */,
 				76EEE0391C0C896400B0A35D /* AppDelegate.swift */,
 				76EEE03B1C0C896400B0A35D /* ViewController.swift */,
 				76EEE03D1C0C896400B0A35D /* Main.storyboard */,
@@ -233,7 +263,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				76EEE0441C0C896400B0A35D /* LaunchScreen.storyboard in Resources */,
+				76EEE0741C0C8CE400B0A35D /* germany.png in Resources */,
+				76EEE0751C0C8CE400B0A35D /* indonesia.png in Resources */,
+				76EEE0711C0C8CE400B0A35D /* brazil.png in Resources */,
 				76EEE0411C0C896400B0A35D /* Assets.xcassets in Resources */,
+				76EEE0791C0C8CE400B0A35D /* uk.png in Resources */,
+				76EEE07A1C0C8CE400B0A35D /* usa.png in Resources */,
+				76EEE0731C0C8CE400B0A35D /* china.png in Resources */,
+				76EEE0761C0C8CE400B0A35D /* japan.png in Resources */,
+				76EEE0781C0C8CE400B0A35D /* spain.png in Resources */,
+				76EEE0771C0C8CE400B0A35D /* southafrica.png in Resources */,
+				76EEE0721C0C8CE400B0A35D /* canada.png in Resources */,
 				76EEE03F1C0C896400B0A35D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
