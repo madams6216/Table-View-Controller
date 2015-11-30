@@ -81,9 +81,43 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ao5-MP-ybQ">
+                                <rect key="frame" x="20" y="72" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="5aE-48-EcC"/>
+                                    <constraint firstAttribute="width" constant="100" id="Zoh-Uv-8Md"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zmz-HY-4EP">
+                                <rect key="frame" x="128" y="151" width="172" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qpf-79-Jdd">
+                                <rect key="frame" x="20" y="180" width="280" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ao5-MP-ybQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8pp-8g-lOW"/>
+                            <constraint firstItem="Zmz-HY-4EP" firstAttribute="leading" secondItem="ao5-MP-ybQ" secondAttribute="trailing" constant="8" id="GmH-6d-aaj"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Qpf-79-Jdd" secondAttribute="leading" id="JzX-jv-EIr"/>
+                            <constraint firstItem="ao5-MP-ybQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="VKE-0y-hKP"/>
+                            <constraint firstItem="Zmz-HY-4EP" firstAttribute="baseline" secondItem="ao5-MP-ybQ" secondAttribute="baseline" id="pj4-MQ-yK8"/>
+                            <constraint firstItem="Qpf-79-Jdd" firstAttribute="top" secondItem="ao5-MP-ybQ" secondAttribute="bottom" constant="8" id="rbO-Bh-QAf"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="abbrLabel" destination="Zmz-HY-4EP" id="oMK-8D-q4G"/>
+                        <outlet property="flagImage" destination="ao5-MP-ybQ" id="xz3-AQ-5ud"/>
+                        <outlet property="nameLabel" destination="Qpf-79-Jdd" id="KVv-g2-C0M"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
