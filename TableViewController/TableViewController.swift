@@ -36,6 +36,23 @@ class TableViewController: UITableViewController {
     
     
     
+    var images = [ "brazil.png",
+            
+            "canada.png",
+            "china.png",
+            "germany.png",
+            "indonesia.png",
+            "japan.png",
+            "southafrica.png",
+            "spain.png",
+            "uk.png",
+            "usa.png"]
+    
+
+    
+    
+    
+    
     
     
     
@@ -65,15 +82,23 @@ class TableViewController: UITableViewController {
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! MyCustomTableViewCell
 
         // Configure the cell...
         
-        
+        /*
         cell.textLabel?.text = testData[indexPath.row]
         cell.detailTextLabel?.text = countries[indexPath.row]
-
+        */
+        
+        cell.abbrLabel.text = testData[indexPath.row]
+        cell.nameLabel.text = countries[indexPath.row]
+        cell.flagImage.image = UIImage(named: images[indexPath.row])
+        
+        
         return cell
+
+
     }
 
 
@@ -93,6 +118,8 @@ class TableViewController: UITableViewController {
             
             testData.removeAtIndex(indexPath.row)
             countries.removeAtIndex(indexPath.row)
+            images.removeAtIndex(indexPath.row)
+            
             
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         } else if editingStyle == .Insert {
@@ -135,6 +162,17 @@ class TableViewController: UITableViewController {
         
         countries[fromIndexPath.row] = tempCountry2
         countries[toIndexPath.row] = tempCountry1
+        
+        
+        let image1 = images[fromIndexPath.row]
+        let image2 = images[toIndexPath.row]
+        
+        images[fromIndexPath.row] = image2
+        images[toIndexPath.row] = image1
+        
+        
+        
+        
         
         tableView.reloadData()
         

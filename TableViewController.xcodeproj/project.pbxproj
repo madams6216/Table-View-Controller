@@ -25,6 +25,7 @@
 		76EEE0791C0C8CE400B0A35D /* uk.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EEE06F1C0C8CE400B0A35D /* uk.png */; };
 		76EEE07A1C0C8CE400B0A35D /* usa.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EEE0701C0C8CE400B0A35D /* usa.png */; };
 		76EEE07C1C0C90C400B0A35D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EEE07B1C0C90C400B0A35D /* TableViewController.swift */; };
+		76EEE0841C0CCAB800B0A35D /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EEE0831C0CCAB800B0A35D /* MyCustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		76EEE06F1C0C8CE400B0A35D /* uk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uk.png; path = ../uk.png; sourceTree = "<group>"; };
 		76EEE0701C0C8CE400B0A35D /* usa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = usa.png; path = ../usa.png; sourceTree = "<group>"; };
 		76EEE07B1C0C90C400B0A35D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		76EEE0831C0CCAB800B0A35D /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				76EEE0421C0C896400B0A35D /* LaunchScreen.storyboard */,
 				76EEE0451C0C896400B0A35D /* Info.plist */,
 				76EEE07B1C0C90C400B0A35D /* TableViewController.swift */,
+				76EEE0831C0CCAB800B0A35D /* MyCustomTableViewCell.swift */,
 			);
 			path = TableViewController;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			files = (
 				76EEE03C1C0C896400B0A35D /* ViewController.swift in Sources */,
 				76EEE07C1C0C90C400B0A35D /* TableViewController.swift in Sources */,
+				76EEE0841C0CCAB800B0A35D /* MyCustomTableViewCell.swift in Sources */,
 				76EEE03A1C0C896400B0A35D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,6 +533,7 @@
 				76EEE0601C0C896400B0A35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76EEE0611C0C896400B0A35D /* Build configuration list for PBXNativeTarget "TableViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +542,7 @@
 				76EEE0631C0C896400B0A35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76EEE0641C0C896400B0A35D /* Build configuration list for PBXNativeTarget "TableViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +551,7 @@
 				76EEE0661C0C896400B0A35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
