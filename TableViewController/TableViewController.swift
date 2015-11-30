@@ -100,10 +100,24 @@ class TableViewController: UITableViewController {
         }    
     }
 
+    
+    
+    override func tableView(tableView: UITableView, accessoryButtonTappedForRowWithIndexPath indexPath: NSIndexPath) {
+    
+        let alert = UIAlertController(title: "Accessory Tapped", message: "You have tapped accessoery for\(testData[indexPath.row])", preferredStyle: .Alert)
+        
+        
+        alert.addAction(UIAlertAction(title: "Ok", style: .Default, handler: nil))
+        
+        self.presentViewController (alert, animated: true, completion: nil)
+        
+    }
 
     
     // Override to support rearranging the table view.
     override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
+        
+        
         
         
         
